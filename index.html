@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/15af226b72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav >
+    <div class="left-nav">
+       
+        <div>
+        <h2 style="color: white; "><i class="fab fa-facebook" style="margin-right: 10px;"></i>Facebook</h2></div>
+
+        <ul>
+            <li><img src="./images/notification.png" alt=""></li>
+            <li><img src="./images/inbox.png" alt=""></li>
+            <li><img src="./images/video.png" alt=""></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="search-bar">
+            <img src="./search.png" alt="">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="user-icon online" onclick="settingsMenuToggle()"><img src="./images/profile-pic.png" alt="profile pic"></div>
+    </div>
+  <!--drop-down menu-->
+    <div class="drop-down" >
+
+
+        <div id="dark-btn" >
+            <span></span>
+
+
+        </div>
+        <div class="inner-box">
+        <div class="user-profile">
+            <img src="./images/profile-pic.png" alt="">
+            <div>
+                <p>John</p>
+                <a href="#">See your profile</a>
+            </div>
+            </div>
+            <hr>
+           
+                <div class="user-profile">
+                    <img src="./images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="drop-down-links">
+                    <img src="./images/setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings and Privacy <img src="./images/arrow.png" alt="" width="10px"></a>
+                </div>
+
+                <div class="drop-down-links">
+                    <img src="./images/help.png" alt="" class="settings-icon">
+                    <a href="#">Help and Support <img src="./images/arrow.png" alt="" width="10px"></a>
+                </div>
+
+                <div class="drop-down-links">
+                    <img src="./images/display.png" alt="" class="settings-icon">
+                    <a href="#">Display and Accessibility <img src="./images/arrow.png" alt="" width="10px"></a>
+                </div>
+
+                <div class="drop-down-links">
+                    <img src="./images/logout.png" alt="" class="settings-icon">
+                    <a href="#">Logout <img src="./images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+            </div>
+        
+
+    
+   
+    </nav>
+ <!------------------------------------CONTENT------------------------->
+    <div class="content">
+        <!---left content----------------------------------->
+        <div class="left-content">
+            <div class="imp-links"><a href="#"><img src="./images/news.png" alt="">Latest news</a>
+            <a href="#"><img src="./images/friends.png" alt="">Friends</a>
+            <a href="#"><img src="./images/group.png" alt="">Group</a>
+            <a href="#"><img src="./images/marketplace.png" alt="">Market place</a>
+            <a href="#"><img src="./images/watch.png" alt="">Watch</a>
+            <a href="#">See more</a>
+         </div>
+       <!--shortcuts-->
+         <div class="shortcut-links">
+             <p>Your Shortcuts</p>
+             <a href="#"><img src="./images/shortcut-1.png" alt="">Web Developers</a>
+             <a href=""><img src="./images/shortcut-2.png" alt="">Web Design Course</a>
+             <a href=""><img src="./images/shortcut-3.png" alt="">Full Stack Developers</a>
+             <a href=""><img src="./images/shortcut-4.png" alt="">Web Developers</a>
+
+         </div>
+    </div>
+        <!---middle content----------------------------------------------->
+        <div class="middle-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="./images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="./images/member-1.png" alt="">
+                    <p>Adhya</p>
+                </div>
+                <div class="story story3">
+                    <img src="./images/member-2.png" alt="">
+                    <p>Thomas</p>
+                </div>
+                <div class="story story4">
+                    <img src="./images/member-3.png" alt="">
+                    <p>Alina</p>
+                </div>
+                <div class="story story5">
+                    <img src="./images/member-4.png" alt="">
+                    <p>Alex</p>
+                </div>
+            </div>
+
+            <div class="user-post">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png" alt="">
+                    <div>
+                        <p>John</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-ip-container">
+                    <textarea name="" id="" cols="" rows="3" placeholder="What's up John?"></textarea>
+                    <div class="post-icons">
+                        <a href="#"><img src="./images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="./images/photo.png" alt="">Photo/Video</a>
+                        <a href="#"><img src="./images/feeling.png" alt="">Feeling/Activity</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png" alt="">
+                    <div>
+                        <p>John</p>
+                        <span>January 13 2022, 12:01 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="text-msg">Hey! This is John here. Connect with me to know about web designing. <a href="#">#webdesigning</a></p>
+                <img src="./images/feed-image-1.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="./images/like-blue.png" alt="">24</div>
+                        <div><img src="./images/comments.png" alt="">10</div>
+                        <div><img src="./images/share.png" alt="">5</div>
+                    </div>
+                    <div class="post-pro-icon">
+                        <img src="./images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+<!--post 2-->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John</p>
+                            <span>January 11 2022, 14:09 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="text-msg"> Having Fun with Friends.<a
+                        href="#"></a></p>
+                <img src="./images/feed-image-2.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="./images/like.png" alt="">82</div>
+                        <div><img src="./images/comments.png" alt="">50</div>
+                        <div><img src="./images/share.png" alt="">15</div>
+                    </div>
+                    <div class="post-pro-icon">
+                        <img src="./images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--post 3-->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John</p>
+                            <span>January 9 2021, 5:01 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="text-msg">ng</a></p>
+                <img src="./images/feed-image-3.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="./images/like.png" alt="">23</div>
+                        <div><img src="./images/comments.png" alt="">20</div>
+                        <div><img src="./images/share.png" alt="">3</div>
+                    </div>
+                    <div class="post-pro-icon">
+                        <img src="./images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!--post 4-->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John</p>
+                            <span>January 6 2021, 12:10 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="text-msg"></a></p>
+                <img src="./images/feed-image-4.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="./images/like.png" alt="">23</div>
+                        <div><img src="./images/comments.png" alt="">20</div>
+                        <div><img src="./images/share.png" alt="">3</div>
+                    </div>
+                    <div class="post-pro-icon">
+                        <img src="./images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--post 5-->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John</p>
+                            <span>January 3 2021, 02:01 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="text-msg"></a></p>
+                <img src="./images/feed-image-5.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="./images/like.png" alt="">23</div>
+                        <div><img src="./images/comments.png" alt="">20</div>
+                        <div><img src="./images/share.png" alt="">3</div>
+                    </div>
+                    <div class="post-pro-icon">
+                        <img src="./images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more">Load More</button>
+
+
+
+        </div>
+
+
+
+        <!---right content-------------------------------------->
+    <div class="right-content">
+
+        <div class="sidebar-title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+        </div>
+      <!--event 1-->
+        <div class="event">
+            <div class="left-event">
+                <h3>13</h3>
+                <span>July</span>
+            </div>
+            <div class="right-event">
+                <h4>Social Media</h4>
+                <p><i class="fas fa-map-marker-alt"></i>Tech park</p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+        <!--event 2-->
+        <div class="event">
+            <div class="left-event">
+                <h3>25</h3>
+                <span>November</span>
+            </div>
+            <div class="right-event">
+                <h4>Mobile Marketing</h4>
+                <p><i class="fas fa-map-marker-alt"></i>Tech park</p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+
+        <!--advertisement--->
+        <div class="sidebar-title">
+            <h4>Advertisement</h4>
+            <a href="#">Close</a></div>
+        
+       <a class="adds"> <img src="./images/advertisement.png" alt="" class="side-adds"></a>
+
+    <div class="sidebar-title">
+        <h4>Conversation</h4>
+        <a href="#">Hide chat</a>
+    </div>
+    <div class="online-list">
+        <div class="online">
+           <img src="./images/member-1.png" alt=""> 
+        </div>
+        <p>Adhya</p>
+
+    </div>
+    <div class="online-list">
+        <div class="online">
+            <img src="./images/member-2.png" alt="">
+        </div>
+        <p>Thomas</p>
+    
+    </div>
+    <div class="online-list">
+        <div class="online">
+            <img src="./images/member-3.png" alt="">
+        </div>
+        <p>Alina</p>
+    
+    </div>
+    <div class="online-list">
+        <div class="online">
+            <img src="./images/member-4.png" alt="">
+        </div>
+        <p>Alex</p>
+    
+    </div>
+
+
+</div>
+</div>
+
+<div class="footer">
+    <p> &copy; Copyright 2022</p>
+</div>
+<script src="./index.js"></script>  
+</body>
+</html>
